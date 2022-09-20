@@ -23,7 +23,6 @@ export default function cssRsc() {
 
   return {
     name: 'hydrogen:css-rsc',
-    enforce: 'post',
     config() {
       // Disable CSS code split to avoid preloading styles
       // that are already included in index.html
